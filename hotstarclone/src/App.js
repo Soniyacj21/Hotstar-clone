@@ -1,25 +1,14 @@
-import logo from './logo.svg';
-import './App.css';
+import Navbar from "./component/Navbar";
+import Video from "./component/Video";
+
 
 function App() {
   return (
-    <div className="App"> 
-        <h5> DISNEY + hotstar</h5>
-          <div id="menu-bar">
-            <nav>
-            <ul>
-              <li></li>
-              <li></li>
+    <div className="App flex">  
 
-            </ul>
-      
-    
-            </nav>
-          </div>
-
-
-      </div>
-     
+            <Navbar/>
+            <Video/>
+        </div>
    
   );
 }
