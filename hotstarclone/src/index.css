@@ -50,3 +50,31 @@
   /* margin-bottom: 100px; */
   
 }
+
+.button1{
+  padding: 11px 90px;
+  font-size: 19px;
+  font-weight: bold;
+  color:rgb(252, 246, 246);
+  background-color: rgba(250, 247, 251, 0.2);
+  border: none;
+  border-radius: 9px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin-right: 850px;
+  margin-top: 25px;
+  margin-bottom: 0px;
+ 
+}
+.button2{
+  
+  color:rgb(252, 246, 246);
+  background-color: rgba(250, 247, 251, 0.2);
+  border: none;
+  border-radius: 9px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin-bottom: 80px;
+ 
+ 
+}
