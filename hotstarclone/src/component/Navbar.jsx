@@ -15,7 +15,7 @@ const Navbar = () => {
             <div onMouseEnter={()=> setTouch(true)} onMouseLeave={()=> setTouch(false)} style={{fontWeight:isTouch ? 'bold':'normal'}} >
  
                 <img src={logo} className="w-24 ml-6 mt-6" />
-                 <button className="sub">Subscribe<span>&gt;</span></button>
+                 <button className="sub">Subscribe     <span>&gt;</span></button>
                 <br></br>
                 <img src={myspace} className="w-7 ml-9 mt-10 cursor-pointer" />
                 <img src={search} className="w-7 ml-9 mt-8 cursor-pointer" />
