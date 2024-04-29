@@ -1,5 +1,6 @@
 import Navbar from "./component/Navbar.jsx";
  import Video from "./component/Video.jsx";
+ import List from './component/List.jsx'
 
 
 function App() {
@@ -8,6 +9,7 @@ function App() {
 
              <Navbar/> 
              <Video/> 
+             <List/>
         </div>
    
   );

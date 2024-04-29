@@ -1,13 +1,16 @@
 import React from 'react';
 import video from '../video/video.mp4'
 import img from '../images/img.webp'
+import List from '../component/List.jsx'
 
 const Video= () =>{
   return (
     
-     
+        <div className='main-container'>
         <div className='video'>
         <video src={video} autoPlay loop muted/>
+        <div className='container'>
+       
         
         <div className='content'>
           <img src={img} className="img1 "/>
@@ -29,14 +32,18 @@ const Video= () =>{
           
           <div><button className='plus-button'>
             <p className='icon2'>+</p>
-            </button></div>
+            </button></div>  
 
-
+             
+            
+           </div>
+          
+        
           </div>
 
 </div>
         
-       
+       </div>
    
   );
 }
