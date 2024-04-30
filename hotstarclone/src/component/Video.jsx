@@ -1,5 +1,5 @@
 import React from 'react';
-import video from '../video/video.mp4'
+import video from '../video/looo.mp4'
 import img from '../images/img.webp'
 import List from '../component/List.jsx'
 
@@ -24,7 +24,7 @@ const Video= () =>{
             </ul>
           <p className='para2'>NEW EPISODE EVERY FRIDAY.When pirates hijack a ship off the coast off Somalia, ahigh-stack game is playes with innocentt lives and a precious piece of cargo abroad.</p>
           <p className='para3'> Drama |  Action | Thriller | Controversial</p>
-          <div><button className="watch-button">
+          <div className='watch'> <button className="watch-button">
            <p className="icon"></p>
            <p className="content1">Subscribe to Watch</p></button>
           </div>
