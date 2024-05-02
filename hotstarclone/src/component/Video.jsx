@@ -2,6 +2,7 @@ import React from 'react';
 import video from '../video/looo.mp4'
 import img from '../images/img.webp'
 import List from '../component/List.jsx'
+import List2 from '../component/List2.jsx'
 
 const Video= () =>{
   return (
@@ -24,6 +25,7 @@ const Video= () =>{
             </ul>
           <p className='para2'>NEW EPISODE EVERY FRIDAY.When pirates hijack a ship off the coast off Somalia, ahigh-stack game is playes with innocentt lives and a precious piece of cargo abroad.</p>
           <p className='para3'> Drama |  Action | Thriller | Controversial</p>
+          <div className='buttons'>
           <div className='watch'> <button className="watch-button">
            <p className="icon"></p>
            <p className="content1">Subscribe to Watch</p></button>
@@ -33,8 +35,15 @@ const Video= () =>{
           <div><button className='plus-button'>
             <p className='icon2'>+</p>
             </button></div>  
-
-             
+            </div>
+            <div className='list-head'>
+            
+            <p className='list-head1'>Latest Releases</p> 
+            <p className='list-head2'>View All</p>
+            
+            </div>
+             <List/>
+             <List2/>
             
            </div>
           

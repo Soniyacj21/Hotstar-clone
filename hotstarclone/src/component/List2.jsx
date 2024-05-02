@@ -5,18 +5,9 @@ const MovieCard = ({ title, description, year, rating, posterURL }) => {
   return (
     <div className="movie-card">
       <img src={posterURL} alt={title} />
-      <div className='card-content'>
-        <button className='card-content'>Watch Now</button>
-        {/* <ul className='para1'>
-              <li id="li1">2024 </li>
-            <li>1 Season</li>
-            <li> 7 Languages</li>
-            <li>
-              <p id="li4">A</p>
-            </li>
-            </ul>   */}
-        </div>
-        </div>   
+      
+       
+      </div>
   );
 };
 
@@ -27,7 +18,7 @@ export default function App() {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const resp = await fetch('https://api.sampleapis.com/movies/drama');
+        const resp = await fetch('https://api.sampleapis.com/movies/family');
         const data = await resp.json();
         setMovies(data);
       } catch (error) {
@@ -38,12 +29,16 @@ export default function App() {
     fetchData();
   }, []);
   const handleSliderButtonClick =()=>{
-    setCurrentIndex(prevIndex=> prevIndex+6);
+    setCurrentIndex(prevIndex=> prevIndex+7);
   };
 
   return (
-<div class="list-head">   
-    <div className="movie-list"> 
+<div class="list-head">
+ 
+ 
+    
+    <div className="movie-list2">
+     
       {movies.slice(currentIndex,currentIndex+7).map(movie => (
         <MovieCard
          key={movie.id}
@@ -59,6 +54,7 @@ export default function App() {
     </div>
     {currentIndex + 7 <movies.length&&(
       <button className='=slider-button' onClick={handleSliderButtonClick}>
+       
       </button>
     )}
     </div>
