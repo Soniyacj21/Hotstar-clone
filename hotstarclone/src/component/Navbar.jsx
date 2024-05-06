@@ -5,6 +5,9 @@ import search from "../images/search.svg";
 import home from "..//images/home.svg";
 import myspace from "../images/myspace.svg";
 import tv from "../images/tv.svg"
+import movies from "../images/movies.svg" 
+import sports from "../images/sports.svg"
+import category from "../images/category.svg"
 
 const Navbar = () => {
     const [touch,setTouch] = useState(false)
@@ -24,6 +27,10 @@ const Navbar = () => {
                    <img src={search} className="w-7 ml-9 mt-8 cursor-pointer hover:scale-125" />
                    <img src={home} className="w-7 ml-9 mt-8 cursor-pointer hover:scale-125" />
                    <img src={tv} className="w-7 ml-9 mt-8 cursor-pointer hover:scale-125" />
+                    <img src={movies} className="w-7 ml-9 mt-8 cursor-pointer hover:scale-125" />
+                   <img src={sports} className="w-7 ml-9 mt-8 cursor-pointer hover:scale-125" />
+                   <img src={category} className="w-7 ml-9 mt-8 cursor-pointer hover:scale-125" /> 
+
                </div>
                 <br></br>
             </div>
@@ -33,7 +40,10 @@ const Navbar = () => {
                
                 <h4 className="mt-9">Search</h4>
                <h4 className="mt-10">Home</h4>
-                <h4 className="mt-7">TV</h4>
+                <h4 className="mt-8">TV</h4>
+                <h4 className="mt-8">Movies</h4>
+                <h4 className="mt-8">Sports</h4>
+                <h4 className="mt-8">Category</h4>
                
  
                 </div> }

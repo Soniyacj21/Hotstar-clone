@@ -6,15 +6,11 @@ const MovieCard = ({ title, description, year, rating, posterURL }) => {
     <div className="movie-card">
       <img src={posterURL} alt={title} />
       <div className='card-content'>
-        <button className='card-content'>Watch Now</button>
-        {/* <ul className='para1'>
-              <li id="li1">2024 </li>
-            <li>1 Season</li>
-            <li> 7 Languages</li>
-            <li>
-              <p id="li4">A</p>
-            </li>
-            </ul>   */}
+        <button className='card-button'>Watch Now</button>
+        <button className='card-pbutton'>+</button>
+              <h4 id="li1">2024.2h 13m Season.U/A 16+ .Action</h4>
+              <h5>Arrenaline gets addicted for mumbai based stuntman sidharth! Ready to make a mark in the outlaw competion </h5>
+           
         </div>
         </div>   
   );
