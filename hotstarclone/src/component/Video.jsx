@@ -3,16 +3,17 @@ import video from '../video/looo.mp4'
 import img from '../images/img.webp'
 import List from '../component/List.jsx'
 import List2 from '../component/List2.jsx'
-
+import playstore from '../images/playstore.webp'
+import appstore from '../images/appstore.webp'
 const Video= () =>{
   return (
     
         <div className='main-container'>
+          <div className='overlay-g'>
         <div className='video'>
         <video src={video} autoPlay loop muted/>
+        </div>
         <div className='container'>
-       
-        
         <div className='content'>
           <img src={img} className="img1 "/>
           <ul className='para1'>
@@ -30,31 +31,22 @@ const Video= () =>{
            <p className="icon"></p>
            <p className="content1">Subscribe to Watch</p></button>
           </div>
-
-          
           <div><button className='plus-button'>
             <p className='icon2'>+</p>
             </button></div>  
             </div>
-            <div className='list-head'>
-            
+            <div className='list-head'>  
             <p className='list-head1'>Latest Releases</p> 
-            <p className='list-head2'>View All</p>
-            
+            <p className='list-head2'>View All</p>  
             </div>
              <List/>
              <List2/>
-            
-           </div>
-          
-        
+             <img src={playstore} className="playstore "/>
+             <img src={appstore} className="appstore "/>
+           </div>   
           </div>
-
-</div>
-        
+</div>   
        </div>
-   
   );
 }
-
  export default Video;

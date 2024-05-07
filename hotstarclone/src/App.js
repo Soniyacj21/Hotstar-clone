@@ -1,21 +1,18 @@
 import Navbar from "./component/Navbar.jsx";
  import Video from "./component/Video.jsx";
-//  import List from './component/List.jsx'
-//  import List2 from './component/List2.jsx';
-
-
-
+ import { BrowserRouter, Routes, Route} from 'react-router-dom';
+ import Watch from './component/Watch.jsx'
 function App() {
   return (
     <div className="App flex">  
-
+    <BrowserRouter>
              <Navbar/> 
              <Video/> 
-             {/* <List/> */}
-             {/* <List2/> */}
+             <Routes>
+             <Route path="/Watch" element={<Watch/>}/>
+             </Routes>
+             </BrowserRouter>
         </div>
-   
   );
 }
-
 export default App;
