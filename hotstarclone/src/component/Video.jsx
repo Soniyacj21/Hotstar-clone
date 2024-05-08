@@ -5,13 +5,18 @@ import List from '../component/List.jsx'
 import List2 from '../component/List2.jsx'
 import playstore from '../images/playstore.webp'
 import appstore from '../images/appstore.webp'
+import SliderComponent  from '../component/List3.jsx'
+
 const Video= () =>{
   return (
     
-        <div className='main-container'>
-          <div className='overlay-g'>
-        <div className='video'>
+        <div className='main-container'style={{ background: 'linear-gradient(to top, #000000 55%, transparent 100% ,transparent 100%)',zIndex:2 }}>
+        <div className='overlay-g'>
+        <div className='video'  >
+          
+
         <video src={video} autoPlay loop muted/>
+        </div>
         </div>
         <div className='container'>
         <div className='content'>
@@ -43,10 +48,11 @@ const Video= () =>{
              <List2/>
              <img src={playstore} className="playstore "/>
              <img src={appstore} className="appstore "/>
+             <SliderComponent/>
            </div>   
           </div>
 </div>   
-       </div>
+       
   );
 }
  export default Video;
