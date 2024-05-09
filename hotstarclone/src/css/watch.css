@@ -1,0 +1,18 @@
+.im{
+width:1400px ;
+height: 660px;
+
+}
+.top-right-button {
+    position: absolute;
+    top: -110px; /* Adjust as needed */
+    right: 5px; /* Adjust as needed */
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    color: white;
+  }
+  
+  .top-right-button i {
+    margin-right: 5px; /* Adjust as needed */
+  }

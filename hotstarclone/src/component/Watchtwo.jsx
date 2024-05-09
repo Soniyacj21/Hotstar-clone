@@ -1,14 +1,15 @@
 import React from 'react';
-import img2 from '../images/black.webp'
+// import img2 from '../images/black.webp'
 import img3 from '../images/black-panther.webp'
+import '../css/watchtwo.css'
 
-const Watch= () =>{
+const Watchtwo= () =>{
   return (
    
     <div className='bg-image'>
       <img src={img3} className="img3 "/>
      
-    <div className='content'>
+    {/* <div className='content'>
           <img src={img2} className="img2 " />
           <ul className='paragraph1'>
             <li id="li1">2024 </li>
@@ -29,8 +30,8 @@ const Watch= () =>{
             <p className='icon3'>+</p>
             </button></div>  
             </div>
-   </div>
+   </div> */}
    </div>
   );
 }
- export default Watch;
+ export default Watchtwo;

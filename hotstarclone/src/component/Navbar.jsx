@@ -7,6 +7,8 @@ import tv from "../images/tv.svg"
 import movies from "../images/movies.svg" 
 import sports from "../images/sports.svg"
 import category from "../images/category.svg"
+
+
 const Navbar = () => {
     const [touch,setTouch] = useState(false)
     const [isTouch ]= useState(false) 
