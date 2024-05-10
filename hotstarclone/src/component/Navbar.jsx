@@ -7,7 +7,7 @@ import tv from "../images/tv.svg"
 import movies from "../images/movies.svg" 
 import sports from "../images/sports.svg"
 import category from "../images/category.svg"
-
+import love from "../images/love.svg"
 
 const Navbar = () => {
     const [touch,setTouch] = useState(false)
@@ -26,6 +26,7 @@ const Navbar = () => {
                     <img src={movies} className="w-7 ml-9 mt-8 cursor-pointer hover:scale-125" />
                    <img src={sports} className="w-7 ml-9 mt-8 cursor-pointer hover:scale-125" />
                    <img src={category} className="w-7 ml-9 mt-8 cursor-pointer hover:scale-125" /> 
+                   <img src={love} className="w-7 ml-9 mt-8 cursor-pointer hover:scale-125"/>
                </div>
                 <br></br>
             </div>
@@ -35,8 +36,9 @@ const Navbar = () => {
                <h4 className="mt-10">Home</h4>
                 <h4 className="mt-8">TV</h4>
                 <h4 className="mt-8">Movies</h4>
-                <h4 className="mt-8">Sports</h4>
-                <h4 className="mt-8">Category</h4>  
+                <h4 className="mt-9">Sports</h4>
+                <h4 className="mt-9">Category</h4>  
+                <h4 className="mt-9">Favorite</h4>  
                 </div> }
              </div> 
     )
