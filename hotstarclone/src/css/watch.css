@@ -20,29 +20,7 @@ height: 660px;
     margin-right: 5px;
   } 
    
-  /* watch.css */
- /* .modal {
-  display: flex;
-  justify-content: center;
-  align-items: flex-start; 
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0, 0, 0, 0.5);
-  z-index: 99; 
-}
-
-.modal-content {
-  background-color: white;
-  padding: 20px;
-  border-radius: 5px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-  max-width: 80%;
-  max-height: 80%;
-  overflow-y: auto;
-}
+  
 
 .close {
   position: absolute;
@@ -54,54 +32,24 @@ height: 660px;
 
 .close:hover {
   color: red;
-}  */
-/* watch.css */
-/* .modal {
-  position: fixed;
-  top: 30%;
-  left: 75%;
-  transform: translate(-30%, -40%);
-  background-color: rgba(255, 255, 255, 0.9);
-  border-radius: 5px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-  width: 30%;
-  max-height: 70%;
-  overflow-y: auto;
-  z-index: 100;
- 
-}
-
-.modal-content {
-  padding: 5px;
-  width: 80px;
-  display: flex;
-  flex-direction: row;
-  gap:10px
-} */
+} 
 .modal {
 position: fixed;
-  margin-top: -15%;
-  margin-left: 35%;
-  transform: translate(-30%, -40%);
+  margin-top: -5%;
+  margin-left: 30%;
+ 
   background-color: rgba(255, 255, 255, 0.9);
   border-radius: 5px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-  width: 30%;
+  width: 40%;
   max-height: 70%;
-  overflow-y: auto;
   z-index: 100;
-
-
-  position: fixed;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  background-color: rgba(255, 255, 255, 0.9);
   border-radius: 5px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   max-width: 80%;
   max-height: 80%;
-  overflow-y: auto;
+
 
 }
 

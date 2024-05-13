@@ -153,23 +153,19 @@ span{
 }
 .container{
   position: absolute;
-  top:330px; 
+  top:370px; 
 }
 .main-container{
   height: 1500px;
   width: 100%;
   background-color: black;
   object-fit: cover;
- 
-  
- 
   };
 .navbar{
   position: fixed;
 }
 body{
   object-fit: cover;
-  /* background-color: black; */
 }
 
 .movie-list { 
@@ -177,7 +173,7 @@ body{
   position: absolute;  
   background-color: transparent; 
   left: 124px;
-  top: 200px;
+  top: 170px;
   right: -171px;
   flex-direction: row;  
   flex: 1; 
@@ -242,7 +238,7 @@ body{
   position: absolute;
   margin-left:-20px;
   top: calc(90px);
-  z-index: 1; /* Ensure the button appears above other elements */
+  z-index: 1; /*  button appears above other elements */
   font-size: 25px;
   color: whitesmoke;
 }
@@ -251,7 +247,7 @@ body{
     position: absolute;
     margin-left:-1160px; 
     top: calc(90px);
-    z-index: 1; /* Ensure the button appears above other elements */
+    z-index: 1; /* button appears above other elements */
     font-size: 25px;
     color: whitesmoke;
   }
@@ -302,6 +298,7 @@ body{
   top: 460px;
   right: -171px;
   flex-direction: row;  
+  overflow-x: hidden;
 }
 .list-head{
   display: flex;
@@ -447,4 +444,15 @@ body{
 .overlay-g{
   background-color: rgb(255, 196, 250);
   z-index: -1;
+}
+.company{
+  margin-left: -800px;
+  padding-top: 200px;
+}
+.aboutus{
+  margin-left: -800px;
+}
+.careers{
+  margin-left: -800px;
+  margin-bottom: -200px;
 }

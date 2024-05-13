@@ -1,48 +1,4 @@
-// import React from 'react';
-// import Slider from 'react-slick';
-// import 'slick-carousel/slick/slick.css';
-// import 'slick-carousel/slick/slick-theme.css';
-// import image1 from '../images/1.webp';
-// import image2 from '../images/2.webp';
-// import image3 from '../images/3.webp';
-// import image4 from '../images/4.webp';
 
-
-
-// const SliderComponent = () => {
-//   const settings = {
-//     dots: false,
-//     infinite: false,
-//     speed: 500,
-//     slidesToShow: 4,
-//     slidesToScroll: 1,
-//     autoplay: true,
-//     autoplaySpeed: 2000,
-   
-//   };
-
-//   return (
-//     <div>
-//       <h2>Slider</h2>
-//       <Slider {...settings}>
-//         <div>
-//           <img src={image1} className='image1' />
-//         </div>
-//         <div>
-//           <img src={image2} className='image2' />
-//         </div>
-//         <div>
-//           <img src={image3} className='image3' />
-//         </div>
-//         <div>
-//           <img src={image4} alt="" />
-//         </div>
-//       </Slider>
-//     </div>
-//   );
-// };
-
-// export default SliderComponent;
 import React from 'react';
 import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
@@ -69,7 +25,7 @@ const SliderComponent = () => {
   };
 
   return (
-    <div className="container flex flex-col relative pr-9  z-10 rounded-md  gap-2 w-2/6  -mr-96 ml-96 -mt-64">
+    <div className="container flex flex-col relative pr-9  z-10 rounded-md  gap-2 w-2/6  -mr-96 ml-96 -mt-80">
       <h2 className="text-3xl font-semibold mb-4"></h2>
       <Slider {...settings}>
         <div>

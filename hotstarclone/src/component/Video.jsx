@@ -44,10 +44,15 @@ const Video= () =>{
             <p className='list-head1'>Latest Releases</p> 
             <p className='list-head2'>View All</p>  
             </div>
-             <List/>
-             <List2/>
+        
+            
+             <h3 className='company'>Company</h3>
+             <h3 className='aboutus'>About Us</h3>
+             <h3 className='careers'>Careers</h3>
              <img src={playstore} className="playstore "/>
              <img src={appstore} className="appstore "/>
+             <List/>
+             <List2/>
              <SliderComponent/>
            </div>   
           </div>
