@@ -153,8 +153,10 @@ span{
 }
 .container{
   position: absolute;
-  top:370px; 
+  top:270px; 
+
 }
+
 .main-container{
   height: 1500px;
   width: 100%;
@@ -173,7 +175,7 @@ body{
   position: absolute;  
   background-color: transparent; 
   left: 124px;
-  top: 170px;
+  top: 260px;
   right: -171px;
   flex-direction: row;  
   flex: 1; 
@@ -295,7 +297,7 @@ body{
   position: absolute;  
   background-color: transparent; 
   left: 124px;
-  top: 460px;
+  top: 540px;
   right: -171px;
   flex-direction: row;  
   overflow-x: hidden;

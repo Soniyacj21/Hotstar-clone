@@ -2,7 +2,7 @@ import React, { useState, useEffect, useContext } from 'react';
 import { Link } from 'react-router-dom';
 import '@fortawesome/fontawesome-free/css/all.css'; // CSS file
 import '../css/watch.css';
-import { FavoriteProvider, useFavoriteContext } from './FavoriteContext'; // Correct import
+import { FavoriteProvider, useFavoriteContext } from './FavoriteContext'; 
 
 const MovieCard = ({ title, description, year, rating, posterURL, index, onStarClick }) => {
   const { incrementFavoriteCount, decrementFavoriteCount, favoriteCount , selectedMovies,setSelectedMovies} = useFavoriteContext(); // Use useFavoriteContext instead of FavoriteContext
@@ -92,20 +92,7 @@ const List = () => {
           onStarClick={handleStarClick}
         />
       ))}
-      {/* {showModal && (
-        <div className="modal">
-          <div className="modal-content">
-            <span className="close" onClick={handleCloseModal}>&times;</span>
-            <h2 className='favorites-head'>Favorites</h2>
-            {selectedMovies.map((movie, index) => (
-              <div key={index}>
-                <h3 className='head-modal'>{movie.title}</h3>
-                <img src={movie.posterURL} alt={movie.title} />
-              </div>
-            ))}
-          </div>
-        </div>
-      )} */}
+   
       <div className="slider-buttons">
         {currentIndex > 0 && (
           <button className="previous-button" onClick={handlePreviousButtonClick}>

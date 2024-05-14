@@ -1,9 +1,9 @@
 import React, { createContext, useContext, useState } from 'react';
 
-// Create the context
+//  context creation
 const FavoriteContext = createContext();
 
-// Create a provider component
+//  provider component
 export const FavoriteProvider = ({ children }) => {
   const [favoriteCount, setFavoriteCount] = useState(0);
   const [selectedMovies , setSelectedMovies] = useState([])

@@ -1,4 +1,3 @@
-
 import React from 'react';
 import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
@@ -25,7 +24,7 @@ const SliderComponent = () => {
   };
 
   return (
-    <div className="container flex flex-col relative pr-9  z-10 rounded-md  gap-2 w-2/6  -mr-96 ml-96 -mt-80">
+    <div className="container flex flex-col relative pr-9  z-10 rounded-md  gap-2 w-2/6  -mr-96 ml-96 -mt-40">
       <h2 className="text-3xl font-semibold mb-4"></h2>
       <Slider {...settings}>
         <div>
