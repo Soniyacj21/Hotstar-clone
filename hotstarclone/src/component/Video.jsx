@@ -9,7 +9,7 @@ import SliderComponent  from '../component/List3.jsx'
 
 const Video= () =>{
   return (
-    
+      <div>
         <div className='main-container'style={{ background: 'linear-gradient(to top, #000000 55%, transparent 100% ,transparent 100%)',zIndex:2 }}>
         <div className='overlay-g'>
         <div className='video'  >
@@ -57,7 +57,7 @@ const Video= () =>{
            </div>   
           </div>
 </div>   
-       
+</div> 
   );
 }
  export default Video;

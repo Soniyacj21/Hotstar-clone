@@ -1,6 +1,6 @@
 .im{
 width:1400px ;
-height: 660px;
+height: 655px;
 
 }
 .movie-card:hover{
@@ -13,6 +13,7 @@ height: 660px;
     cursor: pointer;
     color: white; 
     font-size: 15px;
+    overflow-y: hidden;
     
    } 
 }
@@ -103,4 +104,13 @@ height: 660px;
   cursor: pointer;
   padding: 0;
   z-index: 10;
+}
+
+
+.detaildlist{
+ 
+
+ margin-top:40%;
+ height: 100px;
+
 }

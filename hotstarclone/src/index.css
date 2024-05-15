@@ -9,7 +9,7 @@
  }
 .sub{
   color: #F4BB44;
-  background-color:#282722;
+  background-color:#3f35026b;
   margin-left: 8px;
   border-radius: 10px;
   margin-top: 10px;
@@ -115,6 +115,7 @@ span{
   font-weight: bolder;
   transition: transform 0.3s ease;
   margin-right: 30px;
+  margin-left: 180px;
 }
 .watch-button:hover{
   transform: scale(1.05);
@@ -180,6 +181,7 @@ body{
   flex-direction: row;  
   flex: 1; 
   flex-wrap: wrap;
+  
 }
 .movie-card {
   flex: 0 0 auto; 
@@ -408,11 +410,11 @@ body{
   transition: transform 0.3s ease;
   margin-right: 30px;
 }
-.watch-button:hover{
+.watch-button2:hover{
   transform: scale(1.05);
 }
-  .plus-button{     
-  margin-right: 200px;
+  .plus-button1{     
+   background-color: rgba(255, 255, 255, 0.418);
   border-radius: 5px;
   font-weight: bolder;
   transition: transform 0.3s ease;
@@ -420,12 +422,13 @@ body{
   .buttons{
     display: flex;
     flex-direction: row;
-    margin-right: 355px; 
+    margin-left: -190px;
+   
   }
 .icon3 {
   width: 50px;
   height: 50px;
-  background-color: rgba(238, 231, 231, 0.308);
+  color: black;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -457,4 +460,27 @@ body{
 .careers{
   margin-left: -800px;
   margin-bottom: -200px;
+}
+.title-heading{
+  font-size: 35px;
+  margin-left: -800px;
+  color: rgb(248, 116, 138);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/*  watch.css*/
+.line{
+  /* color: white;
+  height: 10px;
+  width: 100%;
+  margin-top: 500px;
+  z-index: 3; */
+  border-bottom: 2px solid #f0e5e5;
+  width: 100%;
+  margin-top: 1px;
+  margin-left:160px;
+}
+body{
+  background-color: black;
 }
